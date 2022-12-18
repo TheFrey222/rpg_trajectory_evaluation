@@ -648,7 +648,7 @@ if __name__ == '__main__':
 
     import subprocess as s
     s.call(['notify-send', 'rpg_trajectory_evaluation finished',
-            'results in: {0}'.format(os.path.abspath(output_dir))])
+            'results in: {0}'.format(os.path.abspath(output_dir))], shell=True)
     print("#####################################")
     print("<<< Finished.")
     print("#####################################")
