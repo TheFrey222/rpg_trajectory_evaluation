@@ -304,5 +304,5 @@ if __name__ == '__main__':
               "#### Done processing error type {0} ####".format(est_type_i))
     import subprocess as s
     s.call(['notify-send', 'rpg_trajectory_evaluation finished',
-            'results in: {0}'.format(os.path.abspath(args.result_dir))])
+            'results in: {0}'.format(os.path.abspath(args.result_dir))], shell=True)
 
